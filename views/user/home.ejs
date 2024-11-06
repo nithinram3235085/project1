@@ -1,0 +1,115 @@
+<%-include('../../views/partials/user/header')%>
+    
+    <section class="hero-section">
+        <div class="discover">
+            <h2 class="fifont">Discover Most Affordable <br>iQOO products</h2>
+            <form class="search-form">
+                <input type="text" class="search-input" placeholder="Search products...">
+                <button type="submit" class="search-btn">Search</button>
+            </form>
+        </div>
+        <div class="hero-content">
+            <img src="../images/IQOO.png" alt="iQOO Products">
+        </div>
+    </section>
+
+    <section class="collections">
+        <h2>Newest Collections Available</h2>
+        <div class="collection-item">
+            <img src="../images/product1.png" alt="iQOO Mobiles">
+            <p>iQOO Mobiles</p>
+        </div>
+        <div class="collection-item">
+            <img src="../images/product2.jpg" alt="iQOO Pad">
+            <p>iQOO Pad</p>
+        </div>
+        <div class="collection-item">
+            <img src="../images/product3.jpg" alt="iQOO TWS">
+            <p>iQOO TWS</p>
+        </div>
+    </section>
+
+    <section class="image1">
+        <div class="image-container">
+            <img src="../images/item1.jpg" alt="iQOO Z9 S">
+            <div class="image-overlay">
+                <p class="product-name">iQOO Z9 S</p>
+                <p class="sale-status">Sale is live!</p>
+                <button class="know-more-btn">Know More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="image2">
+        <div class="image-container">
+            <img src="../images/item2.jpg" alt="iQOO 12 5G">
+            <div class="image-overlay">
+                <p class="product-name">iQOO 12 5G</p>
+                <p class="sale-status">India's 1st Snapdragon 8 Gen 3</p>
+                <button class="know-more-btn">Know More</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../images/P.png" class="d-block custom-img mx-auto" alt="Product 1">
+                <div class="carousel-caption">
+                    <h5>iQOO Z9 S PRO</h5>
+                    <button class="btn btn-primary">Buy</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../images/P1.png" class="d-block custom-img mx-auto" alt="Product 2">
+                <div class="carousel-caption">
+                    <h5>iQOO Z9 S</h5>
+                    <button class="btn btn-primary">Buy</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../images/P2.png" class="d-block custom-img mx-auto" alt="Product 3">
+                <div class="carousel-caption">
+                    <h5>iQOO Z9 S</h5>
+                    <button class="btn btn-primary">Buy</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../images/P3.png" class="d-block custom-img mx-auto" alt="Product 4">
+                <div class="carousel-caption">
+                    <h5>iQOO Z9 S</h5>
+                    <button class="btn btn-primary">Buy</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../images/P4.png" class="d-block custom-img mx-auto" alt="Product 5">
+                <div class="carousel-caption">
+                    <h5>iQOO Z9 S</h5>
+                    <button class="btn btn-primary">Buy</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <div class="box">
+        <div class="newsletter-box">
+            <img src="../images/news.png" alt="Newsletter Icon" class="newsletter-icon">
+            <h2>Subscribe To Newsletter</h2>
+            <p>Get free guide about smart features daily.</p>
+            <div class="input-container">
+                <input type="email" placeholder="Enter email" class="email-input">
+                <button type="button" class="subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    
+      <%-include('../../views/partials/user/footer')%>
